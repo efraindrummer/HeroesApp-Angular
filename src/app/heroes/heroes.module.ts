@@ -13,6 +13,7 @@ import { HeroesRoutingModule } from './heroes-routing.module';
 import { MaterialModule } from '../material/material.module';
 import { HeroeTarjetaComponent } from './components/heroe-tarjeta/heroe-tarjeta.component';
 import { ImagenSkipTestsPipe } from './pipes/imagen.pipe';
+import { ConfirmarComponent } from './components/confirmar/confirmar.component';
 
 
 
@@ -25,6 +26,7 @@ import { ImagenSkipTestsPipe } from './pipes/imagen.pipe';
     ListadoComponent,
     HeroeTarjetaComponent,
     ImagenSkipTestsPipe,
+    ConfirmarComponent,
   ],
   imports: [
     CommonModule,
