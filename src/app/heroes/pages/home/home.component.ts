@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
 import { Router } from '@angular/router';
 import { AuthService } from '../../../auth/services/auth.service';
+import { Auth } from '../../../auth/interface/auth.interface';
 
 @Component({
   selector: 'app-home',
@@ -15,7 +16,7 @@ import { AuthService } from '../../../auth/services/auth.service';
 })
 export class HomeComponent {
 
-  get auth(){
+  get auth(): Auth {
     return this.authService.auth;
   }
 
